@@ -1,0 +1,7 @@
+---
+applications:
+- name: alti_test_spring
+  memory: 1024M
+  instances: 1
+  host: altitest
+  path: target/gs-rest-service-0.1.0.jar
